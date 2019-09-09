@@ -1,0 +1,9 @@
+A professora pediu algumas alterações e adições ao nosso Modelo de Entidade Relacionamento da Floricultura, segue abaixo as alterações que ela pediu:
+
+- Mudar o nome da entidade "Compra" para "Venda";
+- Criar uma entidade "Tipo" para o produto, contendo dois atributos: "codigo" e "descrição";
+- Colocar (inventar) mais atributos para a entidade "Cliente";
+- No relacionamento "Contém" (Entre Venda e Produto) colocar o atributo "quantidade de produtos vendidos";
+- Criar uma entidade "Forma de pagamento" para venda;
+- Criar uma entidade "funcionário" relacionando com a entidade "Venda";
+- Pensar na possibilidade de criar uma entidade "Compra" e "Estoque";
