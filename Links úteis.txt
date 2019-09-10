@@ -1,0 +1,11 @@
+Gerador de dados aleatórios:
+https://www.4devs.com.br/
+
+Documentação do PostgreSQL sobre funções para o campo 'date'
+http://pgdocptbr.sourceforge.net/pg80/functions-datetime.html
+
+Como trabalhar com Store Procedures
+https://www.devmedia.com.br/trabalhando-com-stored-procedures-no-postgresql/33354
+
+Documentação Oficial (Site do PostgreSQL) sobre PL/pgSQL - Linguagem procedural SQL
+http://pgdocptbr.sourceforge.net/pg80/plpgsql.html
