@@ -1,0 +1,83 @@
+
+-- exibe o nome do cliente, nome do produto, 
+-- preço do produto, quantidade da compra e a data da compra de um cliente X
+select ps.nome ,p.nome,p.preco,vp.qtd_prod_venda,v.data 
+from Venda v,Venda_produto vp,Produto p, Pessoa ps, Cliente c
+where c.cod_cli = 3 and p.cod_prod=vp.cod_prod 
+and vp.cod_venda=v.cod_venda and c.cod_cli=ps.cod_pessoa
+and c.cod_pessoa=v.cod_cli
+
+
+
+
+NÃO TESTADO:
+
+
+-- exibe qnt prod, nome, descricao e preco dos produtos crescente qnt prod
+select e.qtd_prod, p.nome,c.descricao , p.preco  from Estoque e, Produto p, Categoria C
+where p.cod_estoque=e.cod_estoque and e.cod_estoque=p.cod_estoque 
+and c.cod_cat=p.cod_cat
+order by e.qtd_prod
+
+
+
+--exibe vendas feitas pelo funcionario 2
+select p.nome,v.cod_venda,v.data ,v.valor from Funcionario f, Pessoa p, Venda v
+where f.cod_func = 2 and f.cod_pessoa=p.cod_pessoa and v.cod_func=f.cod_func
+
+
+-- pessoa(clien/func) de sobral
+select * from Pessoa p where p.cidade = "Sobral"
+
+
+
+
+
+
+-- view 1° select
+creat view procura_cliente as select (ps.nome ,p.nome,p.preco,vp.qtd_prod_venda,v.data 
+from Venda v,Venda_produto vp,Produto p, Pessoa ps, Cliente c
+where c.cod_cli = 3 and p.cod_prod=vp.cod_prod 
+and vp.cod_venda=v.cod_venda and c.cod_cli=ps.cod_pessoa
+and c.cod_pessoa=v.cod_cli)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
