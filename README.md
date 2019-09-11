@@ -7,8 +7,8 @@ SGDB utilizado: Postgres
 
 Equipe do projeto:
 
-Hebert Henrique Martins </br>
-João Vinicius Oliveira de Arruda </br>
-Leonardo de Oliveira Majewski </br>
-Lucas Apolinário Paz </br>
-Rômulo Petronilho Meira
+HEBERT HENRIQUE MARTINS <br>
+JOÃO VINICIUS OLIVEIRA DE ARRUDA <br>
+LEONARDO DE OLIVEIRA MAJEWSKI <br>
+LUCAS APOLINÁRIO PAZ <br>
+RÔMULO PETRONILHO MEIRA
